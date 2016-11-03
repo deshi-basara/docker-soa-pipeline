@@ -36,7 +36,7 @@ image-service:
     THUMBNAIL_HEIGHT: 250
 
 dispatch-service:
-  image: dispatcher-service
+  image: dispatcher-service-image
   links:
     - "rabbitmq:amqp"
   ports:
