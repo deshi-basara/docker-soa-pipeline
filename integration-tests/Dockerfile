@@ -6,7 +6,6 @@ RUN mkdir /app
 WORKDIR /app
 
 COPY package.json /app/
-COPY vendor /app/vendor/
 
 RUN npm install
 

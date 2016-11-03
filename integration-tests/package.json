@@ -1,11 +1,10 @@
 {
-  "name": "image-service",
+  "name": "dispatcher-service",
   "version": "1.0.0",
   "description": "Dummy service",
   "main": "dist/app.js",
   "scripts": {
-    "build": "echo \"Building\"",
-    "unit-tests": "echo \"Unit-Testing\""
+    "test": "echo \"Integration-Testing\""
   },
   "author": "",
   "license": "ISC"
